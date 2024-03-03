@@ -1,0 +1,37 @@
+.banner{
+  background-image: url("https://t3.ftcdn.net/jpg/06/05/69/42/360_F_605694290_enW6VEejw2lGs2R4sAVYiHdnaUbeK9WZ.jpg");
+  background-image: url("https://wallpapers.com/images/hd/food-4k-lyojdps4vwhuemoy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+
+.cover{
+  width:100%;
+  height: 90vh;
+  background-color: black;
+  opacity: .4;
+}
+
+.fadout{
+  z-index: 20;
+  background-color: initial;
+  background-image: linear-gradient(
+    180deg,
+    hsla(0, 0%, 8%, 0.071)0,
+    hsla(0, 0%, 8%, 0.671)29%,
+    hsl(0, 0%, 8%)44%,
+    #131313 68%,
+    #0D0D0D);
+  background-position: 0 top;
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  bottom: -3rem;
+  height: 15vh;
+  opacity: 1;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
